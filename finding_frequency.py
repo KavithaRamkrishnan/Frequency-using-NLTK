@@ -5,7 +5,7 @@ from nltk.corpus import webtext
 from nltk.probability import FreqDist
  
 nltk.download('webtext')
-wt_words = webtext.words('/Users/ramakrishnan_k/Desktop/sales_usecase/test.txt')
+wt_words = webtext.words('/PATH_to_the_file/test.txt')
 visualize_data = nltk.FreqDist(wt_words)
  
 # Let's take the specific words only if their frequency is greater than 3.
